@@ -18,4 +18,6 @@ return {
       },
     },
   },
+
+  lazy = true,
 }
