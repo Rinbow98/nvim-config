@@ -1,6 +1,15 @@
 return {
   -- add colorschemes
-  { "rebelot/kanagawa.nvim" },
+  {
+    "rebelot/kanagawa.nvim",
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+  },
   -- { "navarasu/onedark.nvim" },
   -- { "projekt0n/github-nvim-theme" },
   -- { "Mofiqul/vscode.nvim" },
@@ -11,11 +20,6 @@ return {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "kanagawa",
-      transparent = true,
-      styles = {
-        sidebars = "transparent",
-        floats = "transparent",
-      },
     },
   },
 
